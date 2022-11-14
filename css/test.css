@@ -1,0 +1,89 @@
+.btn1{
+	color: cornsilk;
+	margin-left: 20%;
+	margin-top: 7%;
+	background-color:  DodgerBlue; /* Green */
+  border: none;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+ .btn2{
+	color: rgb(255, 255, 255);
+	margin-left: 20%;
+  margin-top: 7%;
+	background-color:  rgb(255, 255, 255);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+} 
+
+/* test button to make it centre */
+#rtest{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Dir{
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+.sbtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+ .mystyle {
+  margin-left: 351px;
+  width: 100%;
+  padding: 25px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 25px;
+} 
+
+@media screen and (max-width: 700px){
+  
+  .custom-select{
+    margin-top: 20%;
+  }
+ .select-selected{
+   margin-left: -82%;
+ }
+ .btn1{
+   margin-right: -14%;
+ }
+ .btn2{
+   margin-left: 35%;
+ }
+ .Dir{
+   font-size: 27px;
+   align-items: center;
+   margin-left: auto;
+ }
+ .selcol{
+   display: none;
+ }
+
+}
